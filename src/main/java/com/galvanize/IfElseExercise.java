@@ -33,7 +33,6 @@ public class IfElseExercise {
         IfElseExercise thing = new IfElseExercise();
 
         System.out.println(thing.isActive("active"));
-
         System.out.println(thing.grade(60));
 
     }
