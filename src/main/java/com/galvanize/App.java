@@ -5,5 +5,19 @@ package com.galvanize;
  */
 public class App {
 
+    public static void main(String[] args) {
 
+        CompiledProgrammingLanguage Java = new CompiledProgrammingLanguage();
+
+        Java.setName("Java");
+        Java.setCompilerCommand("javac");
+
+
+
+        System.out.println(
+
+                Java.toString()
+        );
+
+    }
 }
